@@ -3,14 +3,14 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.landing-photo{
+.landing{
     background-image: url(https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/12/2017/03/Port_2_Background.jpg);
     background-size: 98vw;
     margin: 1vw 1vw;
     height: 72vh;
     background-repeat: no-repeat;
     text-align: center;
-
+    position: relative;
 }
 .nav{
     display: flex;
@@ -37,4 +37,23 @@ height: 15vh;
 .nav-menu{
     padding: 0;
     width: 32.6666vw;
+}
+
+.landing-text{
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.landing-text h1{
+    font-size: 3vw;
+}
+.landing-text h1 span{
+    font-weight: 100;
+}
+.landing-text p{
+    font-weight: 300;
+    width: 40vw;
 }
