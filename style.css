@@ -57,3 +57,17 @@ height: 15vh;
     font-weight: 300;
     width: 40vw;
 }
+.landing-sections{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+}
+.landing-sections-item{
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.375rem 0.9375rem;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 6.25rem;
+
+}
